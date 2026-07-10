@@ -1,0 +1,51 @@
+EmployeeID,Department,Experience_Years,Education_Level,Age,Gender,City,Monthly_Salary,education_encoded,gender_encoded,department_encoded,city_encoded
+1,Marketing,15,Master,53,Female,Delhi,111416,2,0,3,2
+2,Operations,7,Bachelor,25,Female,Bangalore,95271,1,0,4,0
+3,IT,12,High School,51,Female,Hyderabad,69064,0,0,2,3
+4,Operations,8,PhD,44,Male,Delhi,95091,3,1,4,2
+5,Operations,15,Master,36,Female,Delhi,132450,2,0,4,2
+6,Finance,3,High School,50,Male,Mumbai,65818,0,1,0,4
+7,IT,14,PhD,57,Male,Mumbai,70525,3,1,2,4
+8,IT,17,PhD,34,Female,Bangalore,44830,3,0,2,0
+9,IT,4,Bachelor,53,Male,Hyderabad,42429,1,1,2,3
+10,Operations,18,High School,28,Male,Mumbai,31893,0,1,4,4
+11,Marketing,8,PhD,43,Male,Delhi,141381,3,1,3,2
+12,IT,4,Master,49,Female,Hyderabad,104909,2,0,2,3
+13,Operations,2,Master,23,Female,Hyderabad,72333,2,0,4,3
+14,Finance,6,Bachelor,27,Male,Delhi,28436,1,1,0,2
+15,Marketing,10,PhD,49,Female,Mumbai,99290,3,0,3,4
+16,Finance,4,High School,49,Female,Delhi,101213,0,0,0,2
+17,Marketing,18,Master,41,Female,Hyderabad,30895,2,0,3,3
+18,Operations,12,PhD,51,Female,Chennai,44738,3,0,4,1
+19,HR,2,PhD,32,Male,Chennai,55746,3,1,1,1
+20,Marketing,10,Bachelor,49,Male,Bangalore,74377,1,1,3,0
+21,Finance,4,Master,46,Female,Delhi,73404,2,0,0,2
+22,Operations,14,Master,54,Female,Delhi,79045,2,0,4,2
+23,Marketing,16,High School,22,Male,Bangalore,122888,0,1,3,0
+24,HR,15,Master,48,Male,Bangalore,64790,2,1,1,0
+25,HR,8,High School,34,Female,Bangalore,132455,0,0,1,0
+26,IT,14,Master,24,Male,Hyderabad,30600,2,1,2,3
+27,IT,8,Bachelor,27,Female,Delhi,119660,1,0,2,2
+28,Finance,16,Master,29,Female,Hyderabad,118179,2,0,0,3
+29,Marketing,13,High School,48,Male,Bangalore,65764,0,1,3,0
+30,Marketing,18,High School,30,Male,Delhi,99543,0,1,3,2
+31,IT,15,Bachelor,54,Female,Hyderabad,70714,1,0,2,3
+32,Marketing,13,Master,45,Female,Hyderabad,81835,2,0,3,3
+33,Marketing,9,Master,36,Male,Bangalore,127946,2,1,3,0
+34,HR,15,Bachelor,53,Female,Delhi,134616,1,0,1,2
+35,IT,13,Master,53,Male,Bangalore,130983,2,1,2,0
+36,Operations,1,Master,45,Female,Delhi,98744,2,0,4,2
+37,IT,7,High School,33,Male,Chennai,81491,0,1,2,1
+38,Operations,9,Master,23,Male,Mumbai,149123,2,1,4,4
+39,HR,1,Master,24,Male,Mumbai,43589,2,1,1,4
+40,Finance,12,Bachelor,38,Female,Mumbai,68484,1,0,0,4
+41,Marketing,8,Bachelor,23,Female,Bangalore,107989,1,0,3,0
+42,HR,11,PhD,23,Male,Chennai,61212,3,1,1,1
+43,Marketing,19,High School,49,Female,Delhi,68525,0,0,3,2
+44,Finance,17,Master,44,Male,Hyderabad,72202,2,1,0,3
+45,Finance,8,Master,53,Male,Delhi,57635,2,1,0,2
+46,HR,3,PhD,54,Female,Hyderabad,88208,3,0,1,3
+47,Finance,3,Master,22,Female,Delhi,58828,2,0,0,2
+48,Operations,1,High School,40,Male,Chennai,43711,0,1,4,1
+49,Finance,5,PhD,23,Female,Hyderabad,28420,3,0,0,3
+50,Marketing,10,High School,47,Female,Bangalore,121752,0,0,3,0

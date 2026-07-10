@@ -1,0 +1,29 @@
+FEATURE ENGINEERING & RISK ANALYSIS
+============================================================
+
+1. Created 'bmi' = weight(kg) / height(m)^2, and 'bmi_category' (Underweight / Normal / Overweight / Obese per WHO standard thresholds).
+
+2. Created 'bp_category' using standard clinical blood pressure staging (Normal / Elevated / Hypertension Stage 1 / Hypertension Stage 2).
+
+3. Created a rule-based 'risk_score' (0-10) combining age, blood pressure stage, cholesterol, glucose, BMI, and lifestyle factors (smoking/alcohol reduce score downward, activity reduces it) — used for quick triage before formal modeling.
+
+4. Segmented patients into Low / Medium / High risk groups based on risk_score thresholds.
+
+5. Validation: actual disease rate by risk group - Low: 18.8%, Medium: 45.1%, High: 73.3% (confirms risk_score meaningfully separates patients).
+
+6. Correlation with disease outcome: bmi = 0.19, risk_score = 0.40 (risk_score is a notably stronger single predictor than any individual raw feature).
+
+
+Disease rate by BMI category:
+bmi_category
+Underweight    27.804878
+Normal         39.639422
+Overweight     50.442866
+Obese          62.413507
+
+Disease rate by BP category:
+bp_category
+Normal                  22.125563
+Elevated                32.314129
+Hypertension Stage 1    45.142885
+Hypertension Stage 2    84.268952

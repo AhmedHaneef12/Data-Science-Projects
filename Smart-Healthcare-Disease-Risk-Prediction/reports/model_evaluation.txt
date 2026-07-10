@@ -1,0 +1,35 @@
+PREDICTIVE MODELING & EVALUATION
+============================================================
+
+Train/Test split: 54874 train / 13719 test (80/20, stratified)
+
+MODEL COMPARISON
+                     accuracy  precision  recall      f1  roc_auc
+Logistic Regression    0.7294     0.7535  0.6735  0.7113    0.793
+Random Forest          0.7343     0.7554  0.6847  0.7183    0.801
+
+Best performing model (by ROC-AUC): Random Forest
+
+CLASSIFICATION REPORT - Random Forest
+              precision    recall  f1-score   support
+
+  No Disease       0.72      0.78      0.75      6931
+     Disease       0.76      0.68      0.72      6788
+
+    accuracy                           0.73     13719
+   macro avg       0.74      0.73      0.73     13719
+weighted avg       0.74      0.73      0.73     13719
+
+TOP 5 FEATURE IMPORTANCES (Random Forest)
+ap_hi          0.476562
+ap_lo          0.216210
+age_years      0.126642
+cholesterol    0.090293
+bmi            0.035041
+
+RISK PROBABILITY GENERATED for all 68593 patients using Random Forest.predict_proba()
+Predicted risk band distribution:
+predicted_risk_band
+High      24748
+Medium    23796
+Low       20049

@@ -1,0 +1,26 @@
+DATA CLEANING STRATEGY LOG
+============================================================
+
+Original dataset: 70000 rows, 13 columns
+Missing values found: 0
+Fully duplicated rows: 0
+
+Cleaning steps applied:
+- Removed 24 duplicate records (ignoring id).
+- Converted 'age' (days) into a readable 'age_years' column for analysis; raw 'age' kept intact.
+- Age range after conversion: 29.6 - 64.9 years (clinically plausible, no cleaning needed).
+- Removed 53 records with implausible height (<120cm or >220cm).
+- Removed 7 records with implausible weight (<30kg or >200kg).
+- Removed 1222 records with implausible blood pressure readings (systolic outside 70-250 mmHg or diastolic outside 40-200 mmHg).
+- Removed 101 records where diastolic (ap_lo) exceeded systolic (ap_hi), a physiological impossibility.
+- Column 'gender' contains valid categorical values: [np.int64(1), np.int64(2)]
+- Column 'cholesterol' contains valid categorical values: [np.int64(1), np.int64(2), np.int64(3)]
+- Column 'gluc' contains valid categorical values: [np.int64(1), np.int64(2), np.int64(3)]
+- Column 'smoke' contains valid categorical values: [np.int64(0), np.int64(1)]
+- Column 'alco' contains valid categorical values: [np.int64(0), np.int64(1)]
+- Column 'active' contains valid categorical values: [np.int64(0), np.int64(1)]
+- Column 'cardio' contains valid categorical values: [np.int64(0), np.int64(1)]
+- Cast categorical/binary columns to compact integer dtype.
+
+Total rows removed: 1407 (2.01%)
+Final cleaned dataset: 68593 rows x 14 columns

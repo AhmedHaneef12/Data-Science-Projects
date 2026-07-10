@@ -1,0 +1,28 @@
+EXPLORATORY DATA ANALYSIS - KEY FINDINGS
+============================================================
+
+1. Disease prevalence: 49.5% of patients have cardiovascular disease (cardio=1), 50.5% do not. Dataset is well-balanced for modeling.
+
+2. Disease risk rises sharply with age: from 23.4% in the 30-40 group to 67.0% in the 61-65 group.
+
+3. Patients with disease show notably higher blood pressure: average systolic 134 mmHg vs 120 mmHg in healthy patients; diastolic 85 vs 78 mmHg.
+
+4. Cholesterol is strongly linked to risk: 43.5% disease rate at normal levels vs 76.2% at well-above-normal levels.
+
+5. Glucose shows a similar but weaker pattern: 47.6% at normal levels vs 61.8% at well-above-normal levels.
+
+6. Lifestyle factors show smaller individual effects: smokers have a 46.8% disease rate vs 49.7% for non-smokers (a modest, somewhat counterintuitive gap, likely confounded by age and other factors in self-reported data).
+
+7. Physically active patients have a 48.5% disease rate vs 53.3% for inactive patients, a small protective effect.
+
+8. Top correlates with disease risk: ap_hi (0.43), ap_lo (0.34), age_years (0.24), cholesterol (0.22), weight (0.18).
+
+
+STATISTICAL SUMMARY (numeric health indicators)
+============================================================
+             count        mean        std    min    25%    50%    75%    max
+age_years  68593.0   53.292116   6.757645   29.6   48.3   53.9   58.4   64.9
+height     68593.0  164.413380   7.913780  120.0  159.0  165.0  170.0  207.0
+weight     68593.0   74.118903  14.298652   30.0   65.0   72.0   82.0  200.0
+ap_hi      68593.0  126.678101  16.693103   70.0  120.0  120.0  140.0  240.0
+ap_lo      68593.0   81.309507   9.453532   40.0   80.0   80.0   90.0  182.0

@@ -1,0 +1,51 @@
+# Variable Swapping Program
+
+## Description
+
+This Python program demonstrates how to swap the values of two variables without using a temporary variable.
+
+## Features
+
+* Swaps values using arithmetic operations
+* Displays values before and after swapping
+* Simple and beginner-friendly example
+
+## Requirements
+
+* Python 3.x
+
+## How to Run
+
+```bash
+python swap.py
+```
+
+## Example
+
+### Before Swapping
+
+```
+Variable 1: 25
+Variable 2: 40
+```
+
+### After Swapping
+
+```
+Variable 1: 40
+Variable 2: 25
+```
+
+## Logic Used
+
+```python
+a = a + b
+b = a - b
+a = a - b
+```
+
+This technique swaps two numbers without creating an additional variable.
+
+## Author
+
+Created in Python to demonstrate variable manipulation concepts.

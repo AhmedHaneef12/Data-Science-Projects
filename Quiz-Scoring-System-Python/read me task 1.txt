@@ -1,0 +1,64 @@
+# Data Science Quiz Application
+
+## Description
+
+This Python program is a command-line quiz that tests basic Data Science knowledge. Users answer multiple-choice questions and receive scores based on correct and incorrect answers.
+
+## Features
+
+* Multiple-choice questions
+* Automatic score calculation
+* Negative marking for wrong answers
+* Performance feedback at the end
+
+## Requirements
+
+* Python 3.x
+
+## How to Run
+
+```bash
+python quiz.py
+```
+
+## Sample Question
+
+```
+What is the primary library used for data manipulation in Python?
+
+A) NumPy
+B) Pandas
+C) Matplotlib
+D) Scikit-learn
+```
+
+## Scoring System
+
+* Correct Answer: +5 Marks
+* Wrong Answer: Penalty Applied
+* Final score displayed after quiz completion
+
+## Result Categories
+
+### Excellent
+
+Score ≥ 10
+
+### Good Effort
+
+Score > 0
+
+### Keep Practicing
+
+Score ≤ 0
+
+## Learning Objectives
+
+* Introduction to Data Science concepts
+* Python libraries
+* SQL fundamentals
+* Basic programming logic
+
+## Author
+
+Built with Python for educational purposes.

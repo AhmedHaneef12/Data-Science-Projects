@@ -1,0 +1,60 @@
+# User Details Management System
+
+## Description
+
+This Python program collects user information such as Name, Age, and Email, stores the data in a Pandas DataFrame, and exports it to an Excel file.
+
+## Features
+
+* Accepts details for multiple users
+* Stores data in a structured format
+* Creates an Excel file automatically
+* Displays a success message after saving
+
+## Requirements
+
+* Python 3.x
+* Pandas library
+* OpenPyXL library
+
+## Installation
+
+```bash
+pip install pandas openpyxl
+```
+
+## How to Run
+
+```bash
+python user_details.py
+```
+
+## Example Input
+
+```
+How many persons? 2
+
+Person 1
+Enter Name: Ali
+Enter Age: 21
+Enter Email: ali@gmail.com
+
+Person 2
+Enter Name: Sara
+Enter Age: 22
+Enter Email: sara@gmail.com
+```
+
+## Output
+
+An Excel file named:
+
+```
+user_details.xlsx
+```
+
+will be created in the project directory.
+
+## Author
+
+Created using Python and Pandas.
