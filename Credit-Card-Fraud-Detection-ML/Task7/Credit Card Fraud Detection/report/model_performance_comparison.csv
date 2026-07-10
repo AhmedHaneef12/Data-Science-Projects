@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC,PR-AUC,Fraud Rank (of 300)
+Logistic Regression,0.9967,0.0,0.0,0.0,1.0,1.0,[1]
+Decision Tree,0.9967,0.0,0.0,0.0,0.5,0.0033,[1]
+K-Nearest Neighbors,0.9967,0.0,0.0,0.0,0.5,0.0033,[1]
+Random Forest,0.9967,0.0,0.0,0.0,0.4933,0.0033,[5]
