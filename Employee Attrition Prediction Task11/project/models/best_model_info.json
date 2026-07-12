@@ -1,0 +1,8 @@
+{
+  "best_model": "Logistic Regression",
+  "best_params": {
+    "C": 10,
+    "solver": "lbfgs"
+  },
+  "uses_scaled_input": true
+}
