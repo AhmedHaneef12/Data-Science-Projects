@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1_score,best_params
+Logistic Regression,0.82,0.839572192513369,0.8674033149171271,0.8532608695652174,"{'classifier__C': 0.1, 'classifier__solver': 'lbfgs'}"
+Random Forest,0.7833333333333333,0.7788461538461539,0.8950276243093923,0.8329048843187661,"{'classifier__max_depth': 20, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 200}"
+Decision Tree,0.71,0.7526881720430108,0.7734806629834254,0.7629427792915532,"{'classifier__max_depth': 5, 'classifier__min_samples_split': 2}"

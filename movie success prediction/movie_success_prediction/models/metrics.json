@@ -1,0 +1,11 @@
+{
+  "best_model": "Logistic Regression",
+  "accuracy": 0.82,
+  "precision": 0.839572192513369,
+  "recall": 0.8674033149171271,
+  "f1_score": 0.8532608695652174,
+  "best_params": {
+    "classifier__C": 0.1,
+    "classifier__solver": "lbfgs"
+  }
+}

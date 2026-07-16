@@ -1,0 +1,6 @@
+movie_id,genre,release_year,budget_million,marketing_spend_million,runtime_minutes,cast_popularity,director_popularity,director_tier,studio_type,num_screens,critic_score,social_media_buzz,predicted_success,success_probability,predicted_success_label
+NEW-001,Action,2026,120,45,128,82,74,A-List,Major Studio,4000,68,77,1,0.996,Successful
+NEW-002,Drama,2026,8,2,105,38,41,Emerging,Independent,350,72,30,0,0.11,Not Successful
+NEW-003,Animation,2026,95,40,98,60,65,Established,Major Studio,3800,75,82,1,0.983,Successful
+NEW-004,Horror,2026,12,6,92,30,28,First-Time,Independent,800,45,55,0,0.053,Not Successful
+NEW-005,Sci-Fi,2026,180,70,140,88,80,A-List,Major Studio,4500,80,90,1,0.999,Successful

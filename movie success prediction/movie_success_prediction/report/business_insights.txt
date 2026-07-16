@@ -1,0 +1,56 @@
+MOVIE SUCCESS PREDICTION — BUSINESS INSIGHTS & RECOMMENDATIONS
+=================================================================
+
+1. Genre Performance
+-----------------------------------------------------------------
+Top performing genres by success rate: Sci-Fi, Action, Adventure
+   - Sci-Fi: 74.8% success rate
+   - Action: 73.8% success rate
+   - Adventure: 68.8% success rate
+Lowest performing genres: Comedy, Drama, Romance
+   - Comedy: 50.0% success rate
+   - Drama: 45.0% success rate
+   - Romance: 43.3% success rate
+
+2. Director & Studio Effects
+-----------------------------------------------------------------
+Success rate by director tier:
+   - A-List: 92.4%
+   - Established: 73.4%
+   - Emerging: 56.3%
+   - First-Time: 39.3%
+Success rate by studio type:
+   - Major Studio: 76.3%
+   - Mini-Major: 65.3%
+   - Independent: 39.7%
+
+3. Budget & ROI Patterns
+-----------------------------------------------------------------
+Average budget of successful movies: $33.9M
+Average budget of unsuccessful movies: $29.3M
+Average ROI of successful movies: 2.73x
+
+4. Distribution & Marketing Correlations
+-----------------------------------------------------------------
+Correlation between screen count and success: 0.04
+Correlation between marketing spend and success: 0.06
+Correlation between critic score and success: 0.13
+
+5. Recommendations for Producers & Production Companies
+-----------------------------------------------------------------
+   - Prioritize genres with consistently higher success rates
+     (Animation, Action, and Sci-Fi in this dataset) when allocating
+     development budget for high-stakes projects.
+   - Partner with A-List or Established directors where possible;
+     director track record shows a measurable lift in success rate.
+   - Wide theatrical distribution (higher screen counts) is positively
+     associated with success — negotiate for stronger screen commitments
+     during distribution planning.
+   - Marketing spend shows a positive relationship with success; ensure
+     marketing budgets scale appropriately with production budget rather
+     than being cut disproportionately.
+   - Critic and early buzz scores are useful leading indicators — track
+     them during pre-release windows to adjust marketing strategy.
+   - Independent studio releases succeed less often on average; smaller
+     studios should focus on strong critic scores and social buzz to
+     offset lower marketing budgets.
