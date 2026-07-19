@@ -1,0 +1,71 @@
+{
+  "baseline_comparison": {
+    "Logistic Regression": {
+      "precision": 0.0686,
+      "recall": 0.6087,
+      "f1_score": 0.1233,
+      "roc_auc": 0.7944
+    },
+    "Random Forest": {
+      "precision": 0.4231,
+      "recall": 0.4783,
+      "f1_score": 0.449,
+      "roc_auc": 0.9753
+    },
+    "Gradient Boosting": {
+      "precision": 0.3125,
+      "recall": 0.6522,
+      "f1_score": 0.4225,
+      "roc_auc": 0.9688
+    }
+  },
+  "best_model_name": "Random Forest",
+  "best_params": {
+    "max_depth": 12,
+    "n_estimators": 100
+  },
+  "final_metrics": {
+    "precision": 0.6667,
+    "recall": 0.5217,
+    "f1_score": 0.5854,
+    "roc_auc": 0.9846
+  },
+  "feature_columns": [
+    "Time",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "Amount",
+    "Hour",
+    "Day",
+    "Amount_log"
+  ],
+  "train_size": 4567,
+  "test_size": 1523,
+  "test_fraud_count": 23
+}
